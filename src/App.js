@@ -1,8 +1,9 @@
 import './App.css';
+import UIDemo from './routes/UIDemo';
 
 function App() {
   return (
-    <div className='p-2'>Hello World!</div>
+    <UIDemo />
   );
 }
 
