@@ -1,9 +1,11 @@
-import './App.css';
-import UIDemo from './routes/UIDemo';
+import "./App.css";
+import UIDemo from "./routes/UIDemo";
 
 function App() {
   return (
-    <UIDemo />
+    <div className="flex items-center justify-center h-screen text-white">
+      Hello World!
+    </div>
   );
 }
 
