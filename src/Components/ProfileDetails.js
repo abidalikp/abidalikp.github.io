@@ -1,6 +1,6 @@
 const ProfileDetails = () => {
   return (
-    <div className="flex flex-col gap-2 p-4">
+    <div className="flex flex-col gap-2 p-4 max-w-md">
       <div className="flex">
         <span className="flex-grow">Residence:</span> India
       </div>
