@@ -29,13 +29,13 @@ code {
 }
 
 :root {
-  --primary: rgba(255, 255, 255);
-  --secondary: rgba(0, 0, 0);
-  --tertiary: rgba(24, 24, 27);
+  --primary: rgba(250, 250, 249);
+  --secondary: rgba(28, 25, 23);
+  --tertiary: rgba(41, 37, 36);
 }
 
 .light {
-  --primary: rgba(0, 0, 0);
-  --secondary: rgba(255, 255, 255);
-  --tertiary: rgba(244, 244, 245);
+  --primary: rgba(28, 25, 23);
+  --secondary: rgba(250, 250, 249);
+  --tertiary: rgba(245, 245, 244);
 }

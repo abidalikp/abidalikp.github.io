@@ -1,16 +1,16 @@
 import React from "react";
 import SunIcon from "../assets/icons/Sun";
+import { IconButton } from "./Button";
 
 const ThemeToggle = (): React.ReactNode => {
   return (
-    <div
+    <IconButton
       onClick={() => {
         document.getElementById("root")?.classList.toggle("light");
       }}
-      className="w-fit cursor-pointer border rounded-lg p-2 hover:bg-tertiary"
     >
       <SunIcon fill={"var(--primary)"} />
-    </div>
+    </IconButton>
   );
 };
 
