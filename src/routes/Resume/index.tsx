@@ -1,3 +1,4 @@
+import Header from "../../Components/Header";
 import ThemeToggle from "../../Components/ThemeToggle";
 import { resumeData } from "../../Data/resume";
 import Certification from "./Certification";
@@ -6,14 +7,12 @@ import PhoneButton from "./Components/Phone";
 import Education from "./Education";
 import Experience from "./Experience";
 import Project from "./Project";
-import Section from "./Section";
+import Section from "../../Components/Section";
 
 const Resume = (): React.ReactNode => {
   return (
     <div className="flex flex-col gap-4 p-2 py-6">
-      <div className="text-primary text-7xl pb-4 font-bold">
-        {resumeData.name}
-      </div>
+      <Header />
       <div className="text-primary flex flex-wrap gap-4">
         <ThemeToggle />
         <MailButton />

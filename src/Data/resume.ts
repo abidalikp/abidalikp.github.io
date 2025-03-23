@@ -67,28 +67,56 @@ export const resumeData = {
   ],
   projects: [
     {
+      title: "Drop Board",
+      description:
+        "A Trello clone built with Vite, React and TailwindCSS, featuring drag-and-drop functionality.",
+      startDate: "Oct 2021",
+      endDate: "Dec 2021",
+      url: "https://www.abidalikp.com/drop-board/",
+      highlights: [
+        "Implemented user authentication and authorization",
+        "Designed responsive user interface with Tailwind CSS",
+        "Deployed app to Heroku and Netlify",
+      ],
+    },
+    {
+      title: "Youtube Clone",
+      description:
+        "A Youtube clone built with React, Redux, and TailwindCSS, featuring Nav Bar, Side Bar, Quick Filters, Video Search, etc.",
+      startDate: "Aug 2021",
+      endDate: "Sep 2021",
+      url: "https://www.abidalikp.com/youtube-clone/",
+      highlights: [
+        "Integrated Youtube Data API v3 for video search and playback",
+        "Designed responsive user interface with Tailwind CSS",
+        "Deployed app to Netlify",
+      ],
+    },
+    {
+      title: "Family Tree",
+      description:
+        "A family tree generator built with React, Redux, and TailwindCSS, featuring tree visualization using d3.js library.",
+      startDate: "Jun 2021",
+      endDate: "Jul 2021",
+      url: "https://www.abidalikp.com/chakingal/",
+      highlights: [
+        "Designed and implemented drag-and-drop functionality for tree nodes",
+        "Designed responsive user interface with Tailwind CSS",
+        "Deployed app to Netlify",
+      ],
+    },
+    {
       title: "Automatic Tweet Summarization using Transformers",
       description:
         "Designed and trained a neural network-based summarization model using PyTorch Lightning to generate summaries from tweet clusters.",
       startDate: "Jul 2021",
       endDate: "May 2022",
+      url: "",
       highlights: [
         "Fine-tuned the T5 Transformer with T5Tokenizer for summarization, optimizing batch size, sequence lengths, and epochs in Google Colab with GPU acceleration.",
         "Achieved comparable results to existing literature, evaluated using ROUGE Scorer.",
       ],
     },
-    // {
-    //   title: "Social Media App",
-    //   description:
-    //     "A full-stack social media app built with React, Node.js, and MongoDB.",
-    //   startDate: "Oct 2021",
-    //   endDate: "Dec 2021",
-    //   highlights: [
-    //     "Implemented user authentication and authorization",
-    //     "Designed responsive user interface with Tailwind CSS",
-    //     "Deployed app to Heroku and Netlify",
-    //   ],
-    // },
   ],
   certifications: [
     {

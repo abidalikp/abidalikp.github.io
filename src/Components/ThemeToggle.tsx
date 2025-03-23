@@ -8,6 +8,9 @@ const ThemeToggle = (): React.ReactNode => {
       onClick={() => {
         document.getElementById("root")?.classList.toggle("light");
       }}
+      data-tooltip-id="my-tooltip"
+      data-tooltip-content="Toggle Theme"
+      data-tooltip-place="left"
     >
       <SunIcon fill={"var(--primary)"} />
     </IconButton>
