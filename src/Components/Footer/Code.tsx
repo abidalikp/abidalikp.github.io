@@ -1,5 +1,5 @@
-import CodeIcon from "../assets/icons/Code";
-import { IconButton } from "./Button";
+import CodeIcon from "../../assets/icons/Code";
+import { IconButton } from "../Button";
 
 const CodeButton = () => {
   return (

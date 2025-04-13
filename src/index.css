@@ -32,6 +32,8 @@ code {
   --primary: rgba(250, 250, 249);
   --secondary: rgba(28, 25, 23);
   --tertiary: rgba(41, 37, 36);
+
+  color-scheme: dark;
 }
 
 .light {

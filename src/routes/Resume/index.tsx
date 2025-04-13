@@ -1,5 +1,4 @@
 import Header from "../../Components/Header";
-import ThemeToggle from "../../Components/ThemeToggle";
 import { resumeData } from "../../Data/resume";
 import Certification from "./Certification";
 import MailButton from "./Components/Mail";
@@ -14,7 +13,6 @@ const Resume = (): React.ReactNode => {
     <div className="flex flex-col gap-4 p-2 py-6">
       <Header />
       <div className="text-primary flex flex-wrap gap-4">
-        <ThemeToggle />
         <MailButton />
         <PhoneButton />
       </div>

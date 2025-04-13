@@ -1,9 +1,7 @@
 import { ToastContainer } from "react-toastify";
 import "./App.css";
-// import Resume from "./routes/Resume";
-import Portfolio from "./routes/Portfolio";
-import Footer from "./Components/Footer";
 import { Tooltip } from "react-tooltip";
+import SiteRoutes from "./routes";
 
 function App(): React.ReactNode {
   return (
@@ -17,11 +15,8 @@ function App(): React.ReactNode {
         style={{ backgroundColor: "var(--primary)", color: "var(--secondary)" }}
         id="my-tooltip"
       />
-      {/* <div className="mx-auto max-w-3xl"> */}
-      <div className="flex-grow">
-        <Portfolio />
-      </div>
-      <Footer />
+
+      <SiteRoutes />
     </div>
   );
 }
