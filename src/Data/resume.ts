@@ -72,7 +72,7 @@ export const resumeData = {
         "A Trello clone built with Vite, React and TailwindCSS, featuring drag-and-drop functionality.",
       startDate: "Oct 2021",
       endDate: "Dec 2021",
-      url: "https://www.abidalikp.com/drop-board/",
+      url: "https://www.abidalikp.me/drop-board/",
       highlights: [
         "Implemented user authentication and authorization",
         "Designed responsive user interface with Tailwind CSS",
@@ -85,7 +85,7 @@ export const resumeData = {
         "A Youtube clone built with React, Redux, and TailwindCSS, featuring Nav Bar, Side Bar, Quick Filters, Video Search, etc.",
       startDate: "Aug 2021",
       endDate: "Sep 2021",
-      url: "https://www.abidalikp.com/youtube-clone/",
+      url: "https://www.abidalikp.me/youtube-clone/",
       highlights: [
         "Integrated Youtube Data API v3 for video search and playback",
         "Designed responsive user interface with Tailwind CSS",
@@ -98,7 +98,7 @@ export const resumeData = {
         "A family tree generator built with React, Redux, and TailwindCSS, featuring tree visualization using d3.js library.",
       startDate: "Jun 2021",
       endDate: "Jul 2021",
-      url: "https://www.abidalikp.com/chakingal/",
+      url: "https://www.abidalikp.me/chakingal/",
       highlights: [
         "Designed and implemented drag-and-drop functionality for tree nodes",
         "Designed responsive user interface with Tailwind CSS",
