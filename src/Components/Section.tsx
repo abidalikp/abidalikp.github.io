@@ -5,10 +5,10 @@ export interface SectionProps {
 
 const Section = ({ title, children }: SectionProps) => {
   return (
-    <div className="flex flex-col gap-4 pb-1">
-      <div className="text-primary text-4xl pb-2 border-b border-primary font-semibold">
+    <div className="flex flex-col gap-4">
+      <h2 className="text-primary text-2xl font-bold border-b border-card-border pb-2">
         {title}
-      </div>
+      </h2>
       {children}
     </div>
   );

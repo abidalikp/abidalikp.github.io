@@ -12,7 +12,7 @@ const HomeButton = () => {
       }}
       data-tooltip-id="my-tooltip"
       data-tooltip-content="Home"
-      data-tooltip-place="left"
+      data-tooltip-place="top"
     >
       <HomeIcon />
     </IconButton>

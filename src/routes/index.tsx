@@ -22,7 +22,7 @@ const SiteRoutes = () => {
           path="/resume"
           element={
             <>
-              <div className="mx-auto max-w-3xl">
+              <div className="flex-grow px-4 md:px-6">
                 <Resume />
               </div>
               <Footer />

@@ -10,7 +10,7 @@ const ThemeToggle = (): React.ReactNode => {
       }}
       data-tooltip-id="my-tooltip"
       data-tooltip-content="Toggle Theme"
-      data-tooltip-place="left"
+      data-tooltip-place="top"
     >
       <SunIcon fill={"var(--primary)"} />
     </IconButton>

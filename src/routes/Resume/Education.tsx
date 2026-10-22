@@ -13,11 +13,16 @@ export interface EducationProps {
 
 const Education = (props: EducationProps): React.ReactNode => {
   return (
-    <div className="flex items-center gap-3 border rounded-lg p-3 hover:bg-tertiary">
-      <GradCapIcon fill="var(--primary)" />
-      <div className="text-primary ">
-        <div className="font-semibold">{props.school}</div>
-        <div className="italic">{props.major}</div>
+    <div className="flex items-center gap-4 border border-card-border rounded-xl p-4 bg-card-bg hover:border-accent/30 transition-all">
+      <div className="w-10 h-10 rounded-lg flex items-center justify-center bg-accent-soft shrink-0">
+        <GradCapIcon fill="var(--accent)" />
+      </div>
+      <div className="text-primary">
+        <div className="font-bold">{props.school}</div>
+        <div className="text-sm text-muted">{props.major}</div>
+        <div className="text-xs text-muted mt-0.5">
+          {props.startDate} – {props.endDate}
+        </div>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const ResumeButton = () => {
       }}
       data-tooltip-id="my-tooltip"
       data-tooltip-content="View Resume"
-      data-tooltip-place="left"
+      data-tooltip-place="top"
     >
       <DocIcon />
     </IconButton>

@@ -12,7 +12,7 @@ const CodeButton = () => {
       }}
       data-tooltip-id="my-tooltip"
       data-tooltip-content="View Source"
-      data-tooltip-place="left"
+      data-tooltip-place="top"
     >
       <CodeIcon fill={"var(--primary)"} />
     </IconButton>
